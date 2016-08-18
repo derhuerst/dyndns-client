@@ -1,0 +1,13 @@
+{
+	"name":        "dyndns-client",
+	"description": "A client for derhuerst/dyndns-server.",
+	"version":     "0.1.0",
+	"keywords":    ["dns", "dynamic", "dyndns", "nat"],
+	"main":        "index.js",
+	"author":      "Jannis R <mail@jannisr.de>",
+	"homepage":    "https://github.com/derhuerst/dyndns-client",
+	"repository":  "derhuerst/dyndns-client",
+	"issues":      "https://github.com/derhuerst/dyndns-client/issues",
+	"license":     "ISC",
+	"engines" :    {"node": ">=6"}
+}
