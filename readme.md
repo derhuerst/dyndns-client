@@ -17,7 +17,7 @@ npm install dyndns-client
 ## Usage
 
 ```js
-const dyndns = require('dyndns-client')
+const dyndns = require('dyndns-client')('dyndns-server.example.org', 8053, '<key>')
 
 dyndns('A', '127.0.0.1').then(/* … */)
 dyndns('AAAA', '::1').then(/* … */)
