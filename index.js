@@ -2,8 +2,8 @@
 
 const https = require('https')
 
-module.exports = (hostname, port, key) =>
-	(record, ip) => new Promise((yay, nay) =>{
+const createUpdate = (hostname, port, key) => {
+	const update = (record, ip) => new Promise((yay, nay) => {
 
 		const req = https.request({
 			method: 'PATCH',
@@ -30,3 +30,8 @@ module.exports = (hostname, port, key) =>
 
 		req.end(ip)
 	})
+
+	return update
+}
+
+module.exports = createUpdate
