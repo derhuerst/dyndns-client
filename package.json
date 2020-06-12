@@ -1,7 +1,7 @@
 {
 	"name":        "dyndns-client",
 	"description": "A client for derhuerst/dyndns-server.",
-	"version":     "0.1.0",
+	"version":     "0.1.1",
 	"keywords":    ["dns", "dynamic", "dyndns", "nat"],
 	"main":        "index.js",
 	"files":       ["index.js"],
